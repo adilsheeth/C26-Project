@@ -4,8 +4,6 @@ class rope{
 		var options={
 			bodyA: body1,
 			bodyB: body2,
-			length: 100,
-			stiffness: 0.2,
 		}
 
 		this.rope = Constraint.create(options)
